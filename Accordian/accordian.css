@@ -1,0 +1,61 @@
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f7f9fb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .heading {
+    color: #20232a;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  
+  .accordion {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .accordion-item {
+    background-color: #282c34;
+    color: white;
+    border-radius: 12px;
+    padding: 16px;
+    transition: 0.3s ease;
+  }
+  
+  .accordion-item:hover {
+    background-color: #3b4048;
+    cursor: pointer;
+  }
+  
+  .accordion-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .accordion-title h4 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .icon {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .accordion-content {
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #e3e3e3;
+  }
+  
